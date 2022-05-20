@@ -120,7 +120,8 @@ function cartTotal() {
   - pay will return a positive number if money should be returned to customer
 */
 function pay(amount) {
-  return amount - cartTotal();
+  totalPaid += amount;
+  return totalPaid - cartTotal();
 }
 
 /* Place stand out suggestions here */
@@ -139,6 +140,4 @@ module.exports = {
   remove,
   cartTotal,
   pay,
-  // emptyCart,
-  // currency,
 };
