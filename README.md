@@ -125,7 +125,7 @@ Step 6: Re-test the User Interface
 - Node.js (https://nodejs.com) - A JavaScript runtime for creating JavaScript servers
 - Live Server (https://www.npmjs.com/package/live-server) - Live reloading for your workspace
 - Jest (https://jestjs.io/) - A JavaScript testing framework
-
+- and love
 ## License
 
 [License](LICENSE.txt)
